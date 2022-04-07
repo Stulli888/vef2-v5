@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './events.module.css'
 
-export function Events({e}) {
+export function Events({e:any}) {
    return(
     <ul className={styles.events}>
       {e.map(function(event, i){
