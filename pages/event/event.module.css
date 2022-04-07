@@ -1,0 +1,13 @@
+.registrationsList{
+	list-style: none;
+}
+
+.listItem{
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+}
+
+.listP{
+	margin: 0;
+}

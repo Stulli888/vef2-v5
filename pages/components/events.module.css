@@ -1,0 +1,27 @@
+.events{
+	list-style: none;
+}
+
+.listItem{
+	border: thin solid #663;
+	border-radius: 10px;
+	margin: 1rem;
+	display: flex;
+}
+
+.listItem:hover{
+	box-shadow: 10px 5px 5px #663;
+}
+
+.listItem a{
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.listItem h2{
+	color: #663;
+	margin-top: 0.8rem;
+	text-decoration: underline;
+	text-decoration-color: inherit;
+
+}
