@@ -10,7 +10,7 @@ function login(){
       'https://vef2-20222-v3-synilausn.herokuapp.com/users/login',
       		{
       		  body: JSON.stringify({
-      		    name: event.target.name.value,
+      		    username: event.target.name.value,
       		    password: event.target.pw.value
       		  }),
       		  headers: {
