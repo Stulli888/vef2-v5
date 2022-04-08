@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "12.1.4",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "17.0.23",
@@ -19,6 +20,8 @@
     "@types/react-dom": "17.0.14",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
+    "sass": "^1.50.0",
+    "scss": "^0.2.4",
     "typescript": "4.6.3"
   }
 }

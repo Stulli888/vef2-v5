@@ -2,11 +2,10 @@ import type { NextPage } from 'next'
 import React, { ReactChildren, ReactChild } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Events from './components/events'
 
 const Home: NextPage = ({data}: any) => {
-  console.log(data);
   return (
     <div className={styles.container}>
       <Head>

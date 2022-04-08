@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './events.module.css'
+import styles from './events.module.scss'
 
 export default function Events({e}) {
    return(
