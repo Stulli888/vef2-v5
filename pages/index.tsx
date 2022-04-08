@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
+import React, { ReactChildren, ReactChild } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { Events } from './components/events'
+import Events from './components/events'
 
-const Home: NextPage = ({data}) => {
+const Home: NextPage = ({data}: any) => {
+  console.log(data);
   return (
     <div className={styles.container}>
       <Head>
@@ -34,7 +36,6 @@ export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch(`https://vef2-20222-v3-synilausn.herokuapp.com/events`)
   const data = await res.json()
-
   // Pass data to the page via props
   return { props: { data } }
 }

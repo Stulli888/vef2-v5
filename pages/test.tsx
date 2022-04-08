@@ -12,8 +12,8 @@ const Test: NextPage = ({data}) => {
        <link rel="icon" href="/favicon.ico" />
      </Head>
     	<main className={styles.main}>
-    	{data.items.map((item) => (
-        <p>{item.name}</p>
+    	{data.items.map((item, i) => (
+        <p key={i}>{item.name}</p>
       ))}
     	</main>
    </div>

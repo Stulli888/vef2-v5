@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import styles from './events.module.css'
 
-export function Events({e:any}) {
+export default function Events({e}) {
    return(
     <ul className={styles.events}>
-      {e.map(function(event, i){
+      {e?.map(function(event, i){
         return(
           <li key={i} className={styles.listItem}>
             <Link href={`/event/${event.id}`}>
